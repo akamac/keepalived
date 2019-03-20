@@ -1,4 +1,5 @@
-FROM alpine:edge
+FROM alpine:3.7
+#FROM alpine:edge
 LABEL maintainer="Alexey Miasoedov <alexey.miasoedov@gmail.com>"
 
 RUN apk add --no-cache keepalived
